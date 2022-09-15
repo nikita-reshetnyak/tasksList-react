@@ -51,6 +51,7 @@ const Todo = () => {
 
     return (
         <div className="todo-container">
+            <h1>Todo List</h1>
             <div className="header">Pending tasks {taskRemaining}  </div>
             <div className="header__wrapper">
                 {FILTER_NAMES.map(name => {
